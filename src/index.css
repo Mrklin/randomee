@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import "tailwindcss";
+
+
+
+@theme{
+  --font-inter: "Inter", san-serif;
+}
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+
+
+/* body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100svh;
+} */
+
+h1 {
+  font-size: 1.2em;
+  line-height: 1.1;
+}
+
+a:hover{
+  color: #818385;
+}
+
+
+
+
